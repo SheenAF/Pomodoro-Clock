@@ -1,0 +1,80 @@
+body {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  background-color: #888;
+  font-family: "Courier New", Courier, monospace;
+  color: #222;
+  font-size: 1.2em;
+}
+
+h1 {
+  font-size: 3em;
+  font-weight: normal;
+  text-shadow: 3px 3px 5px black;
+}
+.clear {
+  clear: both;
+}
+
+.clockSettings {
+  margin: 20px auto;
+  width: 400px;
+}
+
+.sessionLength, .breakLength  {
+  float: left;
+  width: 200px;
+  margin-bottom: 20px;
+}
+
+.botMargin {
+  margin-bottom: 0px;
+}
+.topMargin {
+  margin-top: 0px;
+}
+
+
+.inline button, .inline p{
+  display: inline-block;
+}
+
+button {
+  background: none;
+  border: none;  
+}
+
+button:hover {
+  cursor: pointer;
+  color: #ddd;
+}
+
+.clock {
+  width: 400px;
+  height: 400px;
+  border-radius: 200px;
+  border: 5px double #6E2B2B;
+  font-size: 3em;
+}
+
+.clock:hover {
+  color: #ddd;
+}
+
+.clock:active {  
+  padding: 0;
+  border-style: solid;
+}
+
+.flash {
+  background-color: #bbb;
+}
+
+.clock p {
+  position: relative;
+  z-order: 2;
+}
+
+
+

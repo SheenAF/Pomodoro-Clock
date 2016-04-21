@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html >
+  <head>
+    <meta charset="UTF-8">
+    <title>Pomodoro Clock Zipline - freecodecamp.com</title>
+    
+    
+    
+    
+        <link rel="stylesheet" href="css/style.css">
+
+    
+    
+    
+  </head>
+
+  <body>
+
+    <h1>Pomodoro Clock</h1>
+<div class="clockSettings">
+  <div class="sessionLength">
+    <p class="botMargin">Session Length</p>
+    <div class="inline">
+    <button onclick="minusSess()">-</button>
+    <p class="sL">25</p>
+    <button onclick="plusSess()">+</button>
+    </div>
+  </div>
+  <div class="breakLength">
+    <p class="botMargin">Break Length</p>
+    <div class="inline">
+    <button onclick="minusBreak()">-</button>
+    <p class="brL">5</p>
+    <button onclick="plusBreak()">+</button>
+    </div>
+  </div>
+</div>
+
+<div class="clear"></div>
+<p class="topMargin"><button onclick="sessOrBreak()">Session/Break</button></p>
+
+
+
+
+<button onclick="startClock()" class="clock">    
+  <p id="actualState">Session</p>
+  <p id="actualTime">Time</p>
+  
+</button>
+    <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+<script src='http://requirejs.org/docs/release/2.1.15/minified/require.js'></script>
+
+        <script src="js/index.js"></script>
+
+    
+    
+    
+  </body>
+</html>
